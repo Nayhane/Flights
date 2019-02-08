@@ -50,3 +50,5 @@ const flights = [
     arrivalTime: "10:00"
   }
 ];
+
+export default flights;

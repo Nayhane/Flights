@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Flights from "./components/Flights.js";
-import "./App.scss";
+import "./scss/App.scss";
 
 class App extends Component {
   render() {

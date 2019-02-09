@@ -1,0 +1,53 @@
+.search{
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.input{
+  border-radius: 20px;
+  border-color: #E6E6E6;
+  border-width: medium;
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.flight-list{
+  line-height: 40px;
+  margin-top: 10%;
+}
+.flight-info{
+  display: flex;
+  border-color:  #f2f2f2;
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+.header{
+  display: flex;
+  border-color:  #E6E6E6;
+  border-radius: 10px;
+  border-style: solid;
+}
+.number{
+  margin-left: 70%;
+}
+.date{
+  margin-left: 10px;
+}
+.date-info{
+  margin-left: 10px;
+  // cursor: pointer;
+}
+.flight-number{
+  margin-left: 35%;
+}
+.space-info{
+  border-left: 1px dotted black;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 40%;
+}

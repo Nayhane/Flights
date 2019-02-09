@@ -2,7 +2,7 @@ const flights = [
   {
     id: 1,
     number: "abc",
-    date: "28-02-2019",
+    date: new Date("2019-02-28"),
     airliner: "KLM",
     departureAirport: "Schiphol",
     departureTime: "20:00",
@@ -12,7 +12,7 @@ const flights = [
   {
     id: 2,
     number: "cde",
-    date: "28-02-2019",
+    date: new Date("2019-02-28"),
     airliner: "Lufthansa",
     departureAirport: "Madrid",
     departureTime: "10:00",
@@ -22,7 +22,7 @@ const flights = [
   {
     id: 3,
     number: "fgh",
-    date: "26-02-2019",
+    date: new Date("2019-02-26"),
     airliner: "Ryanair",
     departureAirport: "Schiphol",
     departureTime: "13:00",
@@ -32,7 +32,7 @@ const flights = [
   {
     id: 4,
     number: "ijk",
-    date: "27-02-2019",
+    date: new Date("2019-02-27"),
     airliner: "Aerlingus",
     departureAirport: "Dublin",
     departureTime: "16:00",
@@ -42,7 +42,7 @@ const flights = [
   {
     id: 5,
     number: "lmn",
-    date: "26-02-2019",
+    date: new Date("2019-03-01"),
     airliner: "KLM",
     departureAirport: "Paris",
     departureTime: "09:00",

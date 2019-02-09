@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { fetchFlights } from "../actions/fetch";
-import FlightDetails from './FlightDetails'
+// import FlightDetails from './FlightDetails'
 import Search from "./Search";
+import '../scss/Flights.scss'
 
 
 
 class Flights extends Component {
-
 
   componentDidMount(flights){
    this.props.dispatch(fetchFlights())
@@ -15,11 +15,17 @@ class Flights extends Component {
 
 
   render() {
+    const { flights } = this.props
 
     return (
-      <div>
-        <Search />
-        <FlightDetails flights={this.props.flights} />
+      <div className='flights'>
+        <Search
+          flights={flights}
+          onChange={this.onChange}
+        />
+        {/* <FlightDetails
+          flights={flights}
+        /> */}
       </div>
     );
   }

@@ -1,16 +1,16 @@
 const flights = [
   {
-    id: 1,
+    id: "1",
     number: "abc",
     date: new Date("2019-02-28"),
     airliner: "KLM",
-    departureAirport: "Schiphol",
+    departureAirport: "Amsterdam",
     departureTime: "20:00",
     arrivalAirport: "Barcelona",
     arrivalTime: "21:00"
   },
   {
-    id: 2,
+    id: "2",
     number: "cde",
     date: new Date("2019-02-28"),
     airliner: "Lufthansa",
@@ -20,17 +20,17 @@ const flights = [
     arrivalTime: "11:00"
   },
   {
-    id: 3,
+    id: "3",
     number: "fgh",
     date: new Date("2019-02-26"),
     airliner: "Ryanair",
-    departureAirport: "Schiphol",
+    departureAirport: "Amsterdam",
     departureTime: "13:00",
     arrivalAirport: "Dublin",
     arrivalTime: "14:30"
   },
   {
-    id: 4,
+    id: "4",
     number: "ijk",
     date: new Date("2019-02-27"),
     airliner: "Aerlingus",
@@ -40,7 +40,7 @@ const flights = [
     arrivalTime: "18:20"
   },
   {
-    id: 5,
+    id: "5",
     number: "lmn",
     date: new Date("2019-03-01"),
     airliner: "KLM",

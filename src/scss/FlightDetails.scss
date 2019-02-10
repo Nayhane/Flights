@@ -1,0 +1,76 @@
+.details-flight{
+  background-color: #ffffff;
+  display: flex;
+  height: 80vh;;
+  width: 80vw;
+  margin-left: 10vh;
+  overflow: hidden;
+  line-height: 5vh;
+  padding-top: 20vh;;
+}
+.header-airport {
+  display: flex;
+}
+.header-airport img{
+  margin-top: 5vh;
+  width: 7vw;
+  height: 5vh;
+  margin-left: 10vh;
+}
+.airport{
+  padding: 0;
+  margin-top: 5vh;
+  margin-left: 2vh;
+  font-size: 5vh;
+  text-align: left;
+}
+.details-link{
+  margin-top: 7vh;
+  margin-left: 5vh;
+}
+.details-header{
+ display: flex;
+ height: 20vh;
+ margin-left: 2.5vh;
+ width: 77vw;
+ background-color: #f2f2f2;
+ font-size: 2vh;
+ border-color:  #f2f2f2;
+ border-radius: 10px;
+ border-style: solid;
+ overflow: scroll;
+}
+.details-number{
+ margin-left: 2vh;
+ padding-top: 5vh;
+}
+.details-date{
+ margin-left: 2vh;
+ padding-top: 5vh;
+}
+.details-airliner{
+  margin-left: 2vh;
+  padding-top: 5vh;
+}
+.details-from{
+  margin-left: 2vh;
+  padding-top: 5vh;
+}
+.details-to{
+  margin-left: 2vh;
+  padding-top: 5vh;
+}
+.details-departure{
+  margin-left: 2vh;
+  padding-top: 5vh;
+}
+.details-arrival{
+  margin-left: 2vh;
+  padding-top: 5vh;
+}
+.bar{
+  border-left: 1px dotted black;
+  height: 15vh;
+  margin-top: 1vh;
+  margin-left: 4.5vw;
+}

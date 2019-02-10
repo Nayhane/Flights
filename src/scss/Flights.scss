@@ -1,8 +1,69 @@
 .flights {
   background-color: #ffffff;
-  display: flex;
+  display: inline-block;
   height: 80vh;;
-  width: 80%;
-  margin-top: 10%;
-  margin-left: 10%;
+  width: 80vw;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  overflow: hidden;
+}
+
+.flight-list{
+  display: inline-block;
+  line-height: 40px;
+  width: 70vw;
+  height: 70vh;
+  margin-top: 5vh;
+  overflow: scroll;
+}
+.flight-info{
+  display: flex;
+  border-color:  #f2f2f2;
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 2.5vh;
+}
+.flight-info:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.header{
+  display: flex;
+  border-color:  #E6E6E6;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: 2.5vh;
+}
+.number{
+  margin-left: 46.5vw;
+}
+@media(max-width: 500px){
+  .number{
+    margin-left: 20vw;
+  }
+}
+.date{
+  margin-left: 1.5vw;
+}
+.date-info{
+  margin-left: 2vw;
+}
+
+.flight-number{
+  margin-left: 20vw;
+}
+@media(max-width: 500px){
+  .flight-number{
+    margin-left: 6vw;
+  }
+}
+.space-info{
+  border-left: 1px dotted black;
+  height: 4vh;
+  margin-top: 1vh;
+  margin-left: 28vw;
 }

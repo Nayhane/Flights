@@ -1,5 +1,6 @@
 ## Available Scripts
 
-After clone the repo, you can run:
+After clone the repo, run:
 
-### `yarn start`
+## `yarn`
+## `yarn start`
